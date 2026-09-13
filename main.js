@@ -3,9 +3,11 @@ var page = document.querySelector("body");
 fetch("conlangs.json")
 .then(data => data.json())
 .then(json => {
+    var num = 0;
     json.forEach(lang =>{
-        page.innerHTML += `<div id="${indexOf(lang)}" onclick="show(${indexOf(lang)})">${lang.name}</div>`
-        document.getElementById(i).style.left = i*json.length+"vw";
+        page.innerHTML += `<div id="${num}" onclick="show(${num})">${lang.name}</div>`
+        document.getElementById(num).style.left = num*json.length+"vw";
+        num++;
     });
 })
 
