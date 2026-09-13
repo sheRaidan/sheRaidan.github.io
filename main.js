@@ -15,10 +15,12 @@ function show(div){
     document.getElementById(div).style.top = "38vh";
     document.getElementById(div).style.left = "45vw";
 
+    var num = 0;
     json.forEach(lang =>{
-        if (i != div){
-            document.getElementById(i).style.left = i*json.length+"vw";
-            document.getElementById(i).style.top = "75vh";
+        if (num != div){
+            document.getElementById(num).style.left = num*json.length+"vw";
+            document.getElementById(num).style.top = "75vh";
+            num++;
         }
     });
 }
