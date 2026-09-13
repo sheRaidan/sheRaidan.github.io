@@ -4,34 +4,41 @@
         "creator": "Sonja Lang",
         "year": 2001,
         "sample": "toki",
-        "desc": ""
+        "desc": "Made specifically to be the smallest speakable language, Toki Pona is known to only have 120-140 distinct words."
     },
     {
         "name": "Esperanto",
         "creator": "L. L. Zamenhof",
         "year": 1887,
         "sample": "Saluton",
-        "desc": ""
+        "desc": "Created to be an international auxiliary (i.e. language people learn to communicate internationally) but it gets most of its vocabulary from Germanic & Romance languages."
     },
     {
         "name": "Ithkuil",
         "creator": "John Quijada",
         "year": 1978,
         "sample": "Wattáu",
-        "desc": ""
+        "desc": "More of a thought experience than a language, it tries to be as dense as possible in how much meaning words have. Since every letter of a word encodes multiple pieces of meaning, entire sentences become single words."
     },
     {
         "name": "Klingon",
         "creator": "Marc Okrand, James Doohan, Jon Povill",
         "year": 1985,
         "sample": "nuqneH",
-        "desc": ""
+        "desc": "Created for <em>Star Trek</em> to be spoken by the Klingon alien race."
     },
     {
         "name": "Sindarin",
         "creator": "J.R.R. Tolkien",
         "year": 1915,
         "sample": "Suilad",
-        "desc": ""
+        "desc": "One of the many conlangs made for <em>The Lord of the Rings</em>, spoken by the grey elves."
+    },
+    {
+        "name": "Vòkhá'ábzhá",
+        "creator": "Rai Carbin",
+        "year": 2025,
+        "sample": "iìi.iíi",
+        "desc": "Ok I'll be honest I just wanted to throw in my current project for fun."
     }
 ]
