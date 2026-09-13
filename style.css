@@ -4,7 +4,6 @@ div{
     color: azure;
     position: absolute;
     top: 75vh;
-    width: 9vw;
     height: 24vh;
     transition: all 0.2s;
 }
