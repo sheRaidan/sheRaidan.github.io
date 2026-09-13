@@ -6,7 +6,7 @@ fetch("conlangs.json")
     var num = 0;
     json.forEach(lang =>{
         page.innerHTML += `<div id="${num}" onclick="show(${num})">${lang.name}</div>`
-        document.getElementById(num).style.left = num*json.length+"vw";
+        document.getElementById(num).style.left = num*100/json.length+"vw";
         num++;
     });
 })
@@ -18,7 +18,7 @@ function show(div){
     var num = 0;
     json.forEach(lang =>{
         if (num != div){
-            document.getElementById(num).style.left = num*json.length+"vw";
+            document.getElementById(num).style.left = num*100/json.length+"vw";
             document.getElementById(num).style.top = "75vh";
             num++;
         }
