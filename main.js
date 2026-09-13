@@ -11,7 +11,7 @@ fetch("conlangs.json")
         num++;
     });
 
-    lastShown = json.length;
+    // lastShown = json.length;
 })
 
 function show(div){
