@@ -1,4 +1,5 @@
 var page = document.querySelector("body");
+var lastShown = 0;
 
 fetch("conlangs.json")
 .then(data => data.json())
@@ -9,18 +10,15 @@ fetch("conlangs.json")
         document.getElementById(num).style.left = num*100/json.length+"vw";
         num++;
     });
+
+    lastShown = json.length;
 })
 
 function show(div){
     document.getElementById(div).style.top = "38vh";
     document.getElementById(div).style.left = "45vw";
 
-    var num = 0;
-    json.forEach(lang =>{
-        if (num != div){
-            document.getElementById(num).style.left = num*100/json.length+"vw";
-            document.getElementById(num).style.top = "75vh";
-            num++;
-        }
-    });
+    document.getElementById(lastShown).style.left = lastShown*100/json.length+"vw";
+    document.getElementById(lastShown).style.top = "75vh";
+    lastShown = div;
 }
