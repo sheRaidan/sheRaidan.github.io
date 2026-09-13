@@ -18,7 +18,7 @@ function show(div){
     document.getElementById(div).style.top = "38vh";
     document.getElementById(div).style.left = "45vw";
 
-    document.getElementById(lastShown).style.left = lastShown*100/json.length+"vw";
+    document.getElementById(lastShown).style.left = lastShown*100/json.length+"vw"; // fix later
     document.getElementById(lastShown).style.top = "75vh";
     lastShown = div;
 }
