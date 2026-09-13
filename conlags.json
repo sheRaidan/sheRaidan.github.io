@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Toki Pona",
+        "creator": "Sonja Lang",
+        "year": 2001,
+        "sample": "toki",
+        "desc": ""
+    },
+    {
+        "name": "Esperanto",
+        "creator": "L. L. Zamenhof",
+        "year": 1887,
+        "sample": "Saluton",
+        "desc": ""
+    },
+    {
+        "name": "Ithkuil",
+        "creator": "John Quijada",
+        "year": 1978,
+        "sample": "Wattáu",
+        "desc": ""
+    },
+    {
+        "name": "Klingon",
+        "creator": "Marc Okrand, James Doohan, Jon Povill",
+        "year": 1985,
+        "sample": "nuqneH",
+        "desc": ""
+    },
+    {
+        "name": "Sindarin",
+        "creator": "J.R.R. Tolkien",
+        "year": 1915,
+        "sample": "Suilad",
+        "desc": ""
+    }
+]

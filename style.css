@@ -1,0 +1,14 @@
+div{
+    background: slateblue;
+    border: 1px solid azure;
+    color: azure;
+    position: absolute;
+    top: 75vh;
+    width: 9vw;
+    height: 24vh;
+    transition: all 0.2s;
+}
+
+div:hover{
+    top: 60vh;
+}
