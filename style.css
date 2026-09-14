@@ -31,3 +31,6 @@ div:hover{
     left: 38vw !important;
     text-align: center;
 }
+.shown:hover{
+    top: 38vh; /* to make sure it doesn't move around */
+}
