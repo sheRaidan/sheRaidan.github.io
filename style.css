@@ -29,7 +29,7 @@ div:hover{
 .shown{
     /* color: red; */
     --left: 0vw;
-    top: 25vh;
+    top: 15vh;
     left: 20vw !important;
     text-align: center;
     width: 60vw !important;
