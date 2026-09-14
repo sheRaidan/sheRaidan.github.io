@@ -8,7 +8,7 @@ fetch("conlangs.json")
     json.forEach(lang =>{
         page.innerHTML += `<div id="${num}" onclick="show(${num})">${lang.name}</div>`;
         document.getElementById(num).style.left = num*100/json.length+"vw";
-        document.getElementById(num).style.width = num*100/json.length+"vw";
+        document.getElementById(num).style.width = 100/json.length+"vw";
         document.getElementById(num).style.background = `hsl(${num*360/json.length}, 80%, 80%)`;
         num++;
     });
