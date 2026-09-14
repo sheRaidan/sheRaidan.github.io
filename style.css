@@ -29,9 +29,9 @@ div:hover{
     /* color: red; */
     --left: 0vw;
     top: 25vh;
-    left: var(--left) !important;
+    left: 20vw !important;
     text-align: center;
-    min-width: fit-content;
+    width: 60vw;
 }
 .shown:hover{
     top: 25vh; /* to make sure it doesn't move around */
