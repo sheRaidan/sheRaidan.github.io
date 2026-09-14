@@ -25,7 +25,8 @@ function show(div){
     // block.style.top = "38vh";
     // block.style.left = "38vw";
     block.classList.add("shown");
-    block.innerHTML = `<h2>${dataCollect[div].name}</h2>`;
+    block.innerHTML = `<h2>${dataCollect[div].name}</h2><p>Created by: <b>${dataCollect[div].creator} in ${dataCollect[div].year}</b></p>
+        <p>${dataCollect[div].desc}</p><hr><p>Hello -> ${dataCollect[div].sample}</p>`;
 
     for (var i = 0; i < lengthOfFile; i++){
         if (document.getElementById(i).style.top != "75vh" && i != div){
