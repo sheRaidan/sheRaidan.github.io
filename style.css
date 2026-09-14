@@ -1,3 +1,7 @@
+:root{
+    --left: 0vw;
+}
+
 html{
     font-size: 10px;
 }
@@ -28,7 +32,7 @@ div:hover{
 .shown{
     /* color: red; */
     top: 25vh;
-    left: 20vw !important;
+    left: var(--left) !important;
     text-align: center;
     min-width: fit-content;
 }
