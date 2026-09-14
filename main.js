@@ -25,8 +25,8 @@ function show(div){
     document.getElementById(div).style.left = "45vw";
 
     for (var i = 0; i < lengthOfFile; i++){
-        if (i != div){
-            document.getElementById(i).style.left = places[i-1]+"vw"; 
+        if (document.getElementById(i).style.top != "75vh"){
+            document.getElementById(i).style.left = places[i]+"vw"; 
             document.getElementById(i).style.top = "75vh";
         }
     }
