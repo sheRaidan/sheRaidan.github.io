@@ -6,6 +6,7 @@ body{
     font-family: "DM Mono", monospace;
     overflow: hidden;
 }
+
 div{
     /* background: slateblue; */
     /* border: 1px solid azure; */
@@ -16,7 +17,10 @@ div{
     height: 24vh;
     transition: all 0.2s;
 }
-
 div:hover{
     top: 60vh;
+}
+
+.side{
+    rotate: -90deg;
 }
