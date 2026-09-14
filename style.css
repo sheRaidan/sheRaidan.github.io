@@ -15,6 +15,7 @@ div{
     position: absolute;
     top: 75vh;
     height: 24vh;
+    text-align: right;
     transition: all 0.2s;
 }
 div:hover{
@@ -23,4 +24,5 @@ div:hover{
 
 .side{
     rotate: -90deg;
+    margin-top: -20vw;
 }
