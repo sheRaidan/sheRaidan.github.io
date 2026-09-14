@@ -27,8 +27,8 @@ function show(div){
     block.classList.add("shown");
     block.style.setProperty("--left",  "50vw");
     block.innerHTML = `<h2>${dataCollect[div].name}</h2><p>Created by: <b>${dataCollect[div].creator} in ${dataCollect[div].year}</b></p>
-        <div class="bubble" style="border-color: hsl(${div*360/lengthOfFile}, 90%, 40%);"><p>${dataCollect[div].desc}</p>
-        </div><div class="bubble" style="border-color: hsl(${div*360/lengthOfFile}, 90%, 40%);"><p>Hello -> ${dataCollect[div].sample}</p></div>`;
+        <div class="bubble" style="border-color: hsl(${div*360/lengthOfFile}, 90%, 70%);"><p>${dataCollect[div].desc}</p>
+        </div><div class="bubble" style="border-color: hsl(${div*360/lengthOfFile}, 90%, 70%);"><p>Hello -> ${dataCollect[div].sample}</p></div>`;
     console.log(div*360/lengthOfFile +" was supposed to be "+div+"*"+360+"/"+lengthOfFile);
 
     for (var i = 0; i < lengthOfFile; i++){
