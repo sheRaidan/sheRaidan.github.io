@@ -30,7 +30,7 @@ div:hover{
     top: 25vh;
     left: 20vw !important;
     text-align: center;
-    width: 60vw;
+    min-width: fit-content;
 }
 .shown:hover{
     top: 25vh; /* to make sure it doesn't move around */
