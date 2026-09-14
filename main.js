@@ -25,7 +25,7 @@ function show(div){
     document.getElementById(div).style.left = "45vw";
 
     for (var i = 0; i < lengthOfFile; i++){
-        if (document.getElementById(i).style.top != "75vh"){
+        if (document.getElementById(i).style.top != "75vh" && i != div){
             document.getElementById(i).style.left = "0px"; // see if this helps
             document.getElementById(i).style.left = places[i]+"vw"; 
             document.getElementById(i).style.top = "75vh";
