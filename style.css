@@ -37,7 +37,7 @@ div:hover{
     max-height: fit-content !important;
 }
 .shown:hover{
-    top: 25vh; /* to make sure it doesn't move around */
+    top: 15vh; /* to make sure it doesn't move around */
 }
 
 .bubble{
