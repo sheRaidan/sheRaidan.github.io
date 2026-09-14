@@ -34,6 +34,7 @@ div:hover{
     text-align: center;
     width: 60vw !important;
     z-index: -1;
+    max-height: fit-content !important;
 }
 .shown:hover{
     top: 25vh; /* to make sure it doesn't move around */
