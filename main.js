@@ -9,7 +9,7 @@ fetch("conlangs.json")
     json.forEach(lang =>{
         page.innerHTML += `<div id="${num}" onclick="show(${num})">${lang.name}</div>`;
         document.getElementById(num).style.left = num*100/json.length+"vw";
-        document.getElementById(num).style.width = 50/json.length+"vw";
+        document.getElementById(num).style.width = 200/json.length+"vw";
         document.getElementById(num).style.background = `hsl(${num*360/json.length}, 80%, 80%)`;
         num++;
         lengthOfFile++;
@@ -26,9 +26,8 @@ function show(div){
 
     for (var i = 0; i < lengthOfFile; i++){
         if (document.getElementById(i).style.top != "75vh" && i != div){
-            document.getElementById(i).style.left = "0px"; // see if this helps
             document.getElementById(i).style.top = "75vh";
-            document.getElementById(i).style.left = places[i]+"vw"; 
+            document.getElementById(i).style.left = places[i]-1+"vw"; 
         }
     }
 
