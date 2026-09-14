@@ -32,14 +32,21 @@
         "creator": "J.R.R. Tolkien",
         "year": 1915,
         "sample": "Suilad",
-        "desc": "One of the many conlangs made for <em>The Lord of the Rings</em>, spoken by the grey elves."
+        "desc": "One of the many conlangs made for <em>The Lord of the Rings</em>, spoken by the Grey Elves."
+    },
+    {
+        "name": "Quenya",
+        "creator": "J.R.R. Tolkien",
+        "year": 1915,
+        "sample": "Aiya",
+        "desc": "One of the many conlangs made for <em>The Lord of the Rings</em>, spoken by the Elves in Middle-Earth."
     },
     {
         "name": "Ar̃ojun",
         "creator": "Agma Schwa (youtube)",
         "year": 2017,
         "sample": "Ece",
-        "desc": "A few friends created a world of their own back in 2007, leading on to the creation of not only Ar̃ojun, but an entire book written in the language"
+        "desc": "A few friends created a world of their own back in 2007, leading on to the creation of not only Ar̃ojun, but an entire book written in the language."
     },
     {
         "name": "Vokhá'ábzhá",
