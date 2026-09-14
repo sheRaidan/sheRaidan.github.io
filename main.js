@@ -23,16 +23,14 @@ fetch("conlangs.json")
 function show(div){
     document.getElementById(div).style.top = "38vh";
     document.getElementById(div).style.left = "38vw";
+    document.getElementById(div).classList.add("shown");
 
     for (var i = 0; i < lengthOfFile; i++){
         if (document.getElementById(i).style.top != "75vh" && i != div){
+            document.getElementById(div).classList.remove("shown");
             document.getElementById(i).style.top = "75vh";
-            document.getElementById(i).style.left = places[i]-places[0]/1000*999+"vw";
+            document.getElementById(i).style.left = places[i]-places[0]/1000*999+"vw"; // needs the 1k/999 because places[i] on its own jumps over right for some reason
             // document.getElementById(i).style.transition = "all 0.2s";
         }
     }
-
-    // document.getElementById(lastShown).style.left = lastShown*100/json.length+"vw"; // fix later
-    // document.getElementById(lastShown).style.top = "75vh";
-    // lastShown = div;
 }
