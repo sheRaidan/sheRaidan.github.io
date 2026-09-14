@@ -27,7 +27,8 @@ function show(div){
     block.classList.add("shown");
     block.style.setProperty("--left",  "50vw");
     block.innerHTML = `<h2>${dataCollect[div].name}</h2><p>Created by: <b>${dataCollect[div].creator} in ${dataCollect[div].year}</b></p>
-        <div class="bubble"><p>${dataCollect[div].desc}</p></div><div class="bubble"><p>Hello -> ${dataCollect[div].sample}</p></div>`;
+        <div class="bubble" style="border-color: hsl(${div*360/lengthOfFile.length}, 90%, 40%);"><p>${dataCollect[div].desc}</p>
+        </div><div class="bubble" style="border-color: hsl(${div*360/lengthOfFile.length}, 90%, 40%);"><p>Hello -> ${dataCollect[div].sample}</p></div>`;
 
     for (var i = 0; i < lengthOfFile; i++){
         if (document.getElementById(i).style.top != "75vh" && i != div){
