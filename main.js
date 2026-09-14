@@ -27,7 +27,7 @@ function show(div){
     for (var i = 0; i < lengthOfFile; i++){
         if (document.getElementById(i).style.top != "75vh" && i != div){
             document.getElementById(i).style.top = "75vh";
-            document.getElementById(i).style.left = places[i]-places[0]/5*4+"vw";
+            document.getElementById(i).style.left = places[i]-places[0]/10*9+"vw";
             // document.getElementById(i).style.transition = "all 0.2s";
         }
     }
