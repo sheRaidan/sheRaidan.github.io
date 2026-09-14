@@ -13,6 +13,7 @@ fetch("conlangs.json")
         num++;
         lengthOfFile++;
     });
+    console.log(lengthOfFile);
 
     // lastShown = json.length;
 })
