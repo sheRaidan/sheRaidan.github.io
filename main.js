@@ -1,5 +1,5 @@
 var page = document.querySelector("body");
-// var lengthOfFile = 0;
+var lengthOfFile = 0;
 var places = [];
 var dataCollect = [];
 
@@ -13,7 +13,7 @@ fetch("conlangs.json")
         document.getElementById(num).style.width = 150/json.length+"vw";
         document.getElementById(num).style.background = `hsl(${num*360/json.length}, 80%, 80%)`;
         num++;
-        // lengthOfFile++;
+        lengthOfFile++;
         places.push(num*100/json.length);
         dataCollect.push(lang);
     });
