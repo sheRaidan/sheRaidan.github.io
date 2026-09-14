@@ -1,5 +1,6 @@
 var page = document.querySelector("body");
 var lengthOfFile = 0;
+var places = [];
 
 fetch("conlangs.json")
 .then(data => data.json())
@@ -12,6 +13,7 @@ fetch("conlangs.json")
         document.getElementById(num).style.background = `hsl(${num*360/json.length}, 80%, 80%)`;
         num++;
         lengthOfFile++;
+        places.push(num*100/json.length);
     });
     console.log(lengthOfFile);
 
@@ -24,7 +26,7 @@ function show(div){
 
     for (var i = 0; i < lengthOfFile; i++){
         if (i != div){
-            document.getElementById(i).style.left = i*100/json.length+"vw"; 
+            document.getElementById(i).style.left = places[i]+"vw"; 
             document.getElementById(i).style.top = "75vh";
         }
     }
