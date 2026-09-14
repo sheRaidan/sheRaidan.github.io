@@ -26,7 +26,7 @@ function show(div){
 
     for (var i = 0; i < lengthOfFile; i++){
         if (i != div){
-            document.getElementById(i).style.left = places[i]+"vw"; 
+            document.getElementById(i).style.left = places[i-1]+"vw"; 
             document.getElementById(i).style.top = "75vh";
         }
     }
