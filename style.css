@@ -29,5 +29,7 @@ div:hover{
 }
 
 .shown{
-    color: red;
+    /* color: red; */
+    top: 38vh;
+    left: 38vw;
 }
