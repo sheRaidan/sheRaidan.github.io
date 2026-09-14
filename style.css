@@ -25,4 +25,9 @@ div:hover{
 .side{
     rotate: -90deg;
     margin-left: -20vw;
+    margin-top: 40vh;
+}
+
+.shown{
+    color: red;
 }
