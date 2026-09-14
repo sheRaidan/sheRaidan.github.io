@@ -8,10 +8,10 @@ body{
 }
 
 div{
-    border-radius: 10px 10px 0 0;
+    border-radius: 20px;
     position: absolute;
     top: 75vh;
-    height: 24vh;
+    height: 50vh;
     text-align: right;
     transition: all 0.2s;
 }
@@ -27,10 +27,11 @@ div:hover{
 
 .shown{
     /* color: red; */
-    top: 38vh;
-    left: 38vw !important;
+    top: 25vh;
+    left: 20vw !important;
     text-align: center;
+    width: 60vw;
 }
 .shown:hover{
-    top: 38vh; /* to make sure it doesn't move around */
+    top: 25vh; /* to make sure it doesn't move around */
 }
