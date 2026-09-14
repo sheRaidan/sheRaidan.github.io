@@ -8,9 +8,6 @@ body{
 }
 
 div{
-    /* background: slateblue; */
-    /* border: 1px solid azure; */
-    /* color: azure; */
     border-radius: 10px 10px 0 0;
     position: absolute;
     top: 75vh;
@@ -31,5 +28,6 @@ div:hover{
 .shown{
     /* color: red; */
     top: 38vh;
-    left: 38vw;
+    left: 38vw !important;
+    text-align: center;
 }
