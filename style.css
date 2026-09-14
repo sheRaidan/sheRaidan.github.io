@@ -14,6 +14,7 @@ div{
     height: 50vh;
     text-align: right;
     transition: all 0.2s;
+    padding: 10px;
 }
 div:hover{
     top: 60vh;
@@ -31,9 +32,15 @@ div:hover{
     top: 25vh;
     left: 20vw !important;
     text-align: center;
-    width: 60vw;
+    width: 60vw !important;
     z-index: -1;
 }
 .shown:hover{
     top: 25vh; /* to make sure it doesn't move around */
+}
+
+.bubble{
+    background: #ffffff66;
+    border: inset;
+    border-radius: 10px;
 }
