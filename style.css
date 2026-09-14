@@ -1,3 +1,10 @@
+html{
+    font-size: 10px;
+}
+body{
+    font-size: 1.6rem;
+    overflow: hidden;
+}
 div{
     /* background: slateblue; */
     /* border: 1px solid azure; */
