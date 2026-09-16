@@ -52,15 +52,22 @@
         "name": "Loglan",
         "creator": "James Cooke Brown",
         "year": 1955,
-        "sample": "Loi",
+        "sample": "loi",
         "desc": "Entirely made based on a thought experiment on how language affects thought."
     },
     {
         "name": "Lojban",
         "creator": "Logical Language Group",
         "year": 1987,
-        "sample": "Coi",
-        "desc": "Created based on Loglan as a contiuation of Brown's work."
+        "sample": "coi",
+        "desc": "Created based on Loglan as a contiuation of Brown's work. There were many disputes and even a legal battle that led to how Lojban is today."
+    },
+    {
+        "name": "Anglish",
+        "creator": "Paul Jennings",
+        "year": 1966,
+        "sample": "Hello",
+        "desc": "Made as an offshoot of English that uses only words of Germanish root."
     },
     {
         "name": "Vokhá'ábzhá",
