@@ -49,6 +49,20 @@
         "desc": "A few friends created a world of their own back in 2007, leading on to the creation of not only Ar̃ojun, but an entire book written in the language."
     },
     {
+        "name": "Loglan",
+        "creator": "James Cooke Brown",
+        "year": 1955,
+        "sample": "Loi",
+        "desc": "Entirely made based on a thought experiment on how language affects thought."
+    },
+    {
+        "name": "Lojban",
+        "creator": "Logical Language Group",
+        "year": 1987,
+        "sample": "Coi",
+        "desc": "Created based on Loglan as a contiuation of Brown's work."
+    },
+    {
         "name": "Vokhá'ábzhá",
         "creator": "Rai Carbin",
         "year": 2025,
